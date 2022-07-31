@@ -1,0 +1,341 @@
+{
+	"DEVICE_LIST" : [
+		{
+			"ADDRESS":"0x00000002",
+			"TYPE":"PERIPHERAL_1",
+			"INFO":"RB Garden Lights",
+			"PASSWORD":"vB%>'M{NDG!)Y[ZTR(+9m68r%fu#na7EJ^L}U35Pzs$;_/tXS?x_N}+P",
+			"TOPICS" : [
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0000",
+					"MSG": "IOS_GET_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NONE",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0000",
+					"MSG": "IOS_GET_REPLY-RFCH0-0x00000002",
+					"DATA_TYPE":"INT"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0001",
+					"MSG": "IOS_SET_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0001",
+					"MSG": "IOS_SET_REPLY-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0002",
+					"MSG": "UART_SETUP_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0002",
+					"MSG": "UART_SETUP_REPLY-RFCH0-0x00000002",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0003",
+					"MSG": "UART_SEND_REQUEST_INT-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0003",
+					"MSG": "UART_SEND_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"STR",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0003",
+					"MSG": "UART_SEND_REPLY-RFCH0-0x00000002",
+					"DATA_TYPE":"STR",
+					"ACK":"0"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0004",
+					"MSG": "UART_GET_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NONE",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0004",
+					"MSG": "UART_GET_REPLY-RFCH0-0x00000002",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0005",
+					"MSG": "I2C_SETUP_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0005",
+					"MSG": "I2C_SETUP_REPLY-RFCH0-0x00000002",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0006",
+					"MSG": "I2C_SEND_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0006",
+					"MSG": "I2C_SEND_REPLY-RFCH0-0x00000002",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0007",
+					"MSG": "I2C_GET_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0007",
+					"MSG": "I2C_GET_REPLY-RFCH0-0x00000002",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFF",
+					"MSG": "INFO_QUERY-RFCH0-0x00000002",
+					"DATA_TYPE":"NONE"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0xFFFF",
+					"MSG": "INFO-RFCH0-0x00000002",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFE",
+					"MSG": "SET_CENTRAL_PASS_ON_DEV_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NONE"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFD",
+					"MSG": "SET_NEW_PASS_ON_CENTRAL_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"RAW"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFC",
+					"MSG": "SET_NEW_PASS_ON_DEV_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"RAW"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFB",
+					"MSG": "SET_NEW_CENTRAL_CHANNEL_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFA",
+					"MSG": "SAVE_NEW_CENTRAL_CHANNEL_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFF9",
+					"MSG": "SAVE_NEW_DEVICE_CHANNEL_REQUEST-RFCH0-0x00000002",
+					"DATA_TYPE":"NUM"
+				}
+			]
+		},
+		{
+			"ADDRESS":"0x0000000D",
+			"TYPE":"PERIPHERAL_2",
+			"INFO":"RB Switch",
+			"PASSWORD":"pX01zNEsjUWhohLD#66H%EQOJvh*SSYN^6wcTwtsB92O8N&kjuwv31%!",
+			"TOPICS" : [
+								{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0000",
+					"MSG": "IOS_GET_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NONE",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0000",
+					"MSG": "IOS_GET_REPLY-RFCH0-0x00000003",
+					"DATA_TYPE":"INT"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0001",
+					"MSG": "IOS_SET_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0001",
+					"MSG": "IOS_SET_REPLY-RFCH0-0x00000003",
+					"DATA_TYPE":"NUN"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0002",
+					"MSG": "UART_SETUP_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0002",
+					"MSG": "UART_SETUP_REPLY-RFCH0-0x00000003",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0003",
+					"MSG": "UART_SEND_REQUEST_INT-RFCH0-0x00000003",
+					"DATA_TYPE":"INT",
+					"ACK":"0"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0003",
+					"MSG": "UART_SEND_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"STR",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0003",
+					"MSG": "UART_SEND_REPLY-RFCH0-0x00000003",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0004",
+					"MSG": "UART_GET_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NONE",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0004",
+					"MSG": "UART_GET_REPLY-RFCH0-0x00000003",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0005",
+					"MSG": "I2C_SETUP_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0005",
+					"MSG": "I2C_SETUP_REPLY-RFCH0-0x00000003",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0006",
+					"MSG": "I2C_SEND_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0006",
+					"MSG": "I2C_SEND_REPLY-RFCH0-0x00000003",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0x0007",
+					"MSG": "I2C_GET_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NUM",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0x0007",
+					"MSG": "I2C_GET_REPLY-RFCH0-0x00000003",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFF",
+					"MSG": "INFO_QUERY-RFCH0-0x00000003",
+					"DATA_TYPE":"NONE",
+					"ACK":"0"
+				},
+				{
+					"DIR": "OUT",
+					"SUB_ADDR": "0xFFFF",
+					"MSG": "INFO-RFCH0-0x00000003",
+					"DATA_TYPE":"STR"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFE",
+					"MSG": "SET_CENTRAL_PASS_ON_DEV_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NONE"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFD",
+					"MSG": "SET_NEW_PASS_ON_CENTRAL_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"RAW"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFC",
+					"MSG": "SET_NEW_PASS_ON_DEV_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"RAW"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFB",
+					"MSG": "SET_NEW_CENTRAL_CHANNEL_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NUM"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFFA",
+					"MSG": "SAVE_NEW_CENTRAL_CHANNEL_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NUM"
+				},
+				{
+					"DIR": "IN",
+					"SUB_ADDR": "0xFFF9",
+					"MSG": "SAVE_NEW_DEVICE_CHANNEL_REQUEST-RFCH0-0x00000003",
+					"DATA_TYPE":"NUM"
+				}
+			]
+		}
+
+	]
+}
