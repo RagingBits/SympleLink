@@ -169,10 +169,10 @@
 			]
 		},
 		{
-			"ADDRESS":"0x0000000D",
+			"ADDRESS":"0x00000003",
 			"TYPE":"PERIPHERAL_2",
 			"INFO":"RB Switch",
-			"PASSWORD":"pX01zNEsjUWhohLD#66H%EQOJvh*SSYN^6wcTwtsB92O8N&kjuwv31%!",
+			"PASSWORD":"na7EJ^L}U35Pzs$;_/tXS?x_N}+PvB%>'M{NDG!)Y[ZTR(+9m68r%fu#",
 			"TOPICS" : [
 								{
 					"DIR": "IN",
